@@ -492,30 +492,30 @@ p {
 
   /* GDA Box */
   .gda-box {
-    font-size: 18px;
-    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
-    text-align: center;
-    flex-direction: column; /* add this line */
   }
-  .image-container {
-    margin: 20px auto; /* change margin to auto */
-    width: 100%; /* add this line */
-  }
+  
   .gda-box p {
-    font-size: 18px;
     margin-bottom: 20px;
-    text-align: center; /* add this line */
   }
-  .gda-box h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    text-align: center; /* add this line */
-  }
+  
   .gda-box h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-    text-align: center; /* add this line */
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    margin: 20px auto;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
   }
 
   /* Testimonials */
