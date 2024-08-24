@@ -491,16 +491,19 @@ p {
   }
 
   /* GDA Box */
+ /* Mobile styles */
+@media (max-width: 767px) {
+  /* GDA Box */
   .gda-box {
     font-size: 18px;
     max-width: 100%;
     padding: 20px;
     text-align: center;
+    flex-direction: column; /* add this line */
   }
   .image-container {
-    flex-basis: 100%;
-    margin-right: 0;
-    margin-bottom: 20px;
+    margin: 20px auto; /* change margin to auto */
+    width: 100%; /* add this line */
   }
   .gda-box p {
     font-size: 18px;
@@ -510,7 +513,11 @@ p {
     font-size: 24px;
     margin-bottom: 10px;
   }
-
+  .gda-box h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}
   /* Testimonials */
   .testimonial-container {
     flex-direction: column;
