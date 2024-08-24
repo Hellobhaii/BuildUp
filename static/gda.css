@@ -500,6 +500,7 @@ p {
   .gda-box p {
     margin-bottom: 15px;
     font-size: 18px;
+    margin-left: -25px;
   }
   .gda-box h2 {
     margin-bottom: 15px;
