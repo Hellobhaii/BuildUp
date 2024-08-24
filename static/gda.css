@@ -475,35 +475,87 @@ p {
   nav {
     position: relative;
     height: auto;
+    padding: 10px;
   }
   nav ul {
     flex-direction: column;
+    align-items: center;
   }
   nav li {
     margin-right: 0;
+    margin-bottom: 10px;
   }
   nav a {
     font-size: 16px;
+    padding: 10px;
   }
 
   /* GDA Box */
   .gda-box {
     font-size: 18px;
     max-width: 100%;
+    padding: 20px;
+    text-align: center;
   }
   .image-container {
     flex-basis: 100%;
     margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .gda-box p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .gda-box h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
   }
 
   /* Testimonials */
   .testimonial-container {
     flex-direction: column;
+    align-items: center;
   }
-  .testimonial-box-left, .testimonial-box-right {
+  .testimonial-box {
     flex-basis: 100%;
     margin: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  .testimonial-box h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .testimonial-box p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  /* Services */
+  .services-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .service-box {
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  .service-box h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .service-box p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  /* CTA Button */
+  .cta {
+    width: 100%;
     padding: 10px;
+    font-size: 16px;
   }
 
   /* General styles */
@@ -513,14 +565,10 @@ p {
   }
   h1 {
     font-size: 20px;
+    margin-bottom: 10px;
   }
   p {
     font-size: 16px;
-  }
-}
-/*cta button */
-@media (max-width: 768px) {
-  .cta {
-    width: 100%;
+    margin-bottom: 20px;
   }
 }
