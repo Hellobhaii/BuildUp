@@ -490,7 +490,6 @@ p {
     padding: 10px;
   }
 
-
   /* GDA Box */
   .gda-box {
     font-size: 18px;
@@ -506,16 +505,19 @@ p {
   .gda-box p {
     font-size: 18px;
     margin-bottom: 20px;
+    text-align: center; /* add this line */
   }
   .gda-box h1 {
     font-size: 24px;
     margin-bottom: 10px;
+    text-align: center; /* add this line */
   }
   .gda-box h2 {
     font-size: 20px;
     margin-bottom: 10px;
+    text-align: center; /* add this line */
   }
-}
+
   /* Testimonials */
   .testimonial-container {
     flex-direction: column;
@@ -576,4 +578,18 @@ p {
     font-size: 16px;
     margin-bottom: 20px;
   }
-  
+
+  /* Additional styles */
+  .gda-box .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  .testimonial-box img {
+    width: 100%;
+    height: auto;
+  }
+  .service-box img {
+    width: 100%;
+    height: auto;
+  }
+}
