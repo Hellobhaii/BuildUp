@@ -591,3 +591,210 @@ p {
     height: auto;
   }
 }
+
+/* Tablet styles */
+@media (max-width: 769px) {
+  /* Navigation */
+  nav {
+    padding: 10px;
+  }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  nav a {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  /* GDA Box */
+  .gda-box {
+    padding: 20px;
+  }
+  .gda-box p {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .gda-box h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+  .image-container {
+    margin: 20px auto;
+    width: 100%;
+    text-align: center;
+  }
+  .image-container img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  /* Testimonials */
+  .testimonial-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .testimonial-box {
+    flex-basis: 100%;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  .testimonial-box h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .testimonial-box p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  /* Services */
+  .services-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .service-box {
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  .service-box h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .service-box p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  /* CTA Button */
+  .cta {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  /* General styles */
+  section {
+    padding: 20px;
+    margin: 20px;
+  }
+  h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+}
+/* Mobile styles for 420px screen size */
+@media (max-width: 420px) {
+  /* Navigation */
+  nav {
+    padding: 10px;
+  }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  nav a {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  /* GDA Box */
+  .gda-box {
+    padding: 15px;
+  }
+  .gda-box p {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  .gda-box h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  .image-container {
+    margin: 15px auto;
+    width: 100%;
+    text-align: center;
+  }
+  .image-container img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  /* Testimonials */
+  .testimonial-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .testimonial-box {
+    flex-basis: 100%;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+  }
+  .testimonial-box h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .testimonial-box p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  /* Services */
+  .services-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .service-box {
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+  }
+  .service-box h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .service-box p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  /* CTA Button */
+  .cta {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  /* General styles */
+  section {
+    padding: 15px;
+    margin: 15px;
+  }
+  h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+}
