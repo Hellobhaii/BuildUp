@@ -103,7 +103,7 @@ p {
 .gda-box {
   font-size: 24px;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 80%;
   padding: 20px;
   text-align: center;
   color: #C9CE8C;
@@ -465,336 +465,85 @@ p {
 }
 
 
+@media (max-width: 768px) {
+  .gda-box {
+    flex-direction: column; /* change to vertical layout on smaller screens */
+  }
+}
 
-
-
-
-/* Mobile styles */
 @media (max-width: 390px) {
-  /* Navigation */
+  /* Adjust the navigation bar */
   nav {
-    position: relative;
-    height: auto;
-    padding: 10px;
+    height: 40px; /* reduce height to save space */
+    padding: 0 10px; /* reduce padding to save space */
   }
   nav ul {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column; /* change to vertical layout */
   }
   nav li {
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
-  nav a {
-    font-size: 14px;
-    padding: 10px;
+    margin-right: 0; /* remove margin to save space */
   }
 
-  /* GDA Box */
+  /* Adjust the GDA box */
   .gda-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 15px;
+    flex-direction: column; /* change to vertical layout */
+    padding: 10px; /* reduce padding to save space */
   }
   .gda-box p {
-    margin-bottom: 15px;
-    font-size: 18px;
+    font-size: 24px; /* reduce font size to save space */
+    margin-bottom: 10px; /* reduce margin to save space */
   }
-  .gda-box h2 {
-    margin-bottom: 15px;
-    font-size: 20px;
-  }
-  .image-container {
-    margin: 15px auto;
-    width: 100%;
-    text-align: center;
-  }
-  .image-container img {
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
+  .gda-box h1 {
+    font-size: 20px; /* reduce font size to save space */
+    margin-bottom: 10px; /* reduce margin to save space */
   }
 
-  /* Testimonials */
-  .testimonial-container {
-    flex-direction: column;
-    align-items: center;
-  }
-  .testimonial-box {
-    flex-basis: 100%;
-    margin: 10px;
-    padding: 15px;
-    text-align: center;
-  }
-  .testimonial-box h2 {
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-  .testimonial-box p {
-    font-size: 14px;
-    margin-bottom: 15px;
-  }
-
-  /* Services */
+  /* Adjust the services section */
   .services-container {
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap; /* allow services to wrap to next line */
   }
   .service-box {
-    width: 100%;
-    margin: 10px;
-    padding: 15px;
-    text-align: center;
-  }
-  .service-box h3 {
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-  .service-box p {
-    font-size: 14px;
-    margin-bottom: 15px;
-  }
-
-  /* CTA Button */
-  .cta {
-    width: 100%;
-    padding: 10px;
-    font-size: 14px;
-  }
-
-  /* General styles */
-  section {
-    padding: 10px;
-    margin: 10px;
-  }
-  h1 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  p {
-    font-size: 14px;
-    margin-bottom: 15px;
-  }
-
-  /* Additional styles */
-  .gda-box .image-container img {
-    width: 100%;
-    height: auto;
-  }
-  .testimonial-box img {
-    width: 100%;
-    height: auto;
-  }
-  .service-box img {
-    width: 100%;
-    height: auto;
+    width: calc(50% - 10px); /* adjust width to fit two services per row */
+    margin: 10px; /* adjust margin to save space */
   }
 }
 
-/* Tablet styles */
-@media (max-width: 769px) {
-  /* Navigation */
+@media (max-width: 430px) {
+  /* Adjust the navigation bar */
   nav {
-    padding: 10px;
+    height: 50px; /* increase height to improve readability */
+    padding: 0 15px; /* increase padding to improve readability */
   }
   nav ul {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row; /* change to horizontal layout */
   }
   nav li {
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
-  nav a {
-    font-size: 16px;
-    padding: 10px;
+    margin-right: 20px; /* increase margin to improve readability */
   }
 
-  /* GDA Box */
+  /* Adjust the GDA box */
   .gda-box {
-    padding: 20px;
+    flex-direction: row; /* change to horizontal layout */
+    padding: 15px; /* increase padding to improve readability */
   }
   .gda-box p {
-    margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 28px; /* increase font size to improve readability */
+    margin-bottom: 20px; /* increase margin to improve readability */
   }
-  .gda-box h2 {
-    margin-bottom: 20px;
-    font-size: 22px;
-  }
-  .image-container {
-    margin: 20px auto;
-    width: 100%;
-    text-align: center;
-  }
-  .image-container img {
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
+  .gda-box h1 {
+    font-size: 24px; /* increase font size to improve readability */
+    margin-bottom: 20px; /* increase margin to improve readability */
   }
 
-  /* Testimonials */
-  .testimonial-container {
-    flex-direction: column;
-    align-items: center;
-  }
-  .testimonial-box {
-    flex-basis: 100%;
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
-  }
-  .testimonial-box h2 {
-    font-size: 18px;
-    margin-bottom: 15px;
-  }
-  .testimonial-box p {
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-
-  /* Services */
+  /* Adjust the services section */
   .services-container {
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: nowrap; /* prevent services from wrapping to next line */
   }
   .service-box {
-    width: 100%;
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
-  }
-  .service-box h3 {
-    font-size: 18px;
-    margin-bottom: 15px;
-  }
-  .service-box p {
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-
-  /* CTA Button */
-  .cta {
-    width: 100%;
-    padding: 15px;
-    font-size: 16px;
-  }
-
-  /* General styles */
-  section {
-    padding: 20px;
-    margin: 20px;
-  }
-  h1 {
-    font-size: 20px;
-    margin-bottom: 15px;
-  }
-  p {
-    font-size: 16px;
-    margin-bottom: 20px;
+    width: calc(33.33% - 10px); /* adjust width to fit three services per row */
+    margin: 15px; /* adjust margin to improve readability */
   }
 }
-/* Mobile styles for 420px screen size */
-@media (max-width: 420px) {
-  /* Navigation */
-  nav {
-    padding: 10px;
-  }
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
-  nav li {
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
-  nav a {
-    font-size: 14px;
-    padding: 10px;
-  }
 
-  /* GDA Box */
-  .gda-box {
-    padding: 15px;
-  }
-  .gda-box p {
-    margin-bottom: 15px;
-    font-size: 18px;
-  }
-  .gda-box h2 {
-    margin-bottom: 15px;
-    font-size: 20px;
-  }
-  .image-container {
-    margin: 15px auto;
-    width: 100%;
-    text-align: center;
-  }
-  .image-container img {
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-  }
 
-  /* Testimonials */
-  .testimonial-container {
-    flex-direction: column;
-    align-items: center;
-  }
-  .testimonial-box {
-    flex-basis: 100%;
-    margin: 15px;
-    padding: 15px;
-    text-align: center;
-  }
-  .testimonial-box h2 {
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-  .testimonial-box p {
-    font-size: 14px;
-    margin-bottom: 15px;
-  }
 
-  /* Services */
-  .services-container {
-    flex-direction: column;
-    align-items: center;
-  }
-  .service-box {
-    width: 100%;
-    margin: 15px;
-    padding: 15px;
-    text-align: center;
-  }
-  .service-box h3 {
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-  .service-box p {
-    font-size: 14px;
-    margin-bottom: 15px;
-  }
-
-  /* CTA Button */
-  .cta {
-    width: 100%;
-    padding: 10px;
-    font-size: 14px;
-  }
-
-  /* General styles */
-  section {
-    padding: 15px;
-    margin: 15px;
-  }
-  h1 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  p {
-    font-size: 14px;
-    margin-bottom: 15px;
-  }
-}
