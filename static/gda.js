@@ -80,3 +80,8 @@ document.querySelectorAll('.learn-more').forEach(button => {
     alert('Learn more about our services!');
   });
 });
+//phone no. copied 
+function copyPhoneNumber(phoneNumber) {
+  navigator.clipboard.writeText(phoneNumber);
+  alert("Phone number copied to clipboard!");
+}

@@ -67,10 +67,6 @@ p {
   color: #fff;
 }
 
-.accent-light-gray {
-  background-color: #f2f2f2;
-  color: #333;
-}
 
 /*back to top*/
 #back-to-top {
@@ -446,8 +442,11 @@ p {
   margin-left: auto;
   font-size: 24px; /* reduce font size to 24px */
   font-weight: normal; /* remove bold font */
+  text-decoration: none;
 }
-
+#contact ul li span:hover {
+  cursor: pointer;
+}
 #follow-us {
   background-color:#e8dec1;
   padding: 20px;
