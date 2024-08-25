@@ -72,6 +72,7 @@ document.querySelectorAll("a[href^='#']").forEach((link) => {
     }
   });
 });
+
 //learn more
 document.querySelectorAll('.learn-more').forEach(button => {
   button.addEventListener('click', () => {
