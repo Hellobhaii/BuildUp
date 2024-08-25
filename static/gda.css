@@ -392,14 +392,14 @@ p {
 }
 
 #about-us h1 {
+  left: 20%;
+  
   color: #030000;
   font-size: 50px;
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
-  border-bottom: 2px solid #1a2905; /* add some space before the divider */
+  border-bottom: 2px solid #1a2905; /* updated divider line thickness */
   padding-bottom: 20px; /* add some space after the divider */
 }
-
-
 
 #about-us p {
   color:#030000;
@@ -421,7 +421,7 @@ p {
 
 #about-us .watermark {
   position: absolute;
-  bottom: 20%;
+  bottom: 56%;
   left: 15%;
   z-index: 1000; 
   color:black;
