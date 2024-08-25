@@ -572,8 +572,14 @@ p {
     width: calc(50% - 10px); /* adjust width to fit two services per row */
     margin: 10px; /* adjust margin to save space */
   }
-}
 
+  /* Adjust the watermark */
+  .watermark {
+    font-size: 18px;
+    bottom: 10px;
+    right: 10px;
+  }
+}
 @media (max-width: 430px) {
   /* Adjust the navigation bar */
   nav {
@@ -609,6 +615,13 @@ p {
   .service-box {
     width: calc(33.33% - 10px); /* adjust width to fit three services per row */
     margin: 15px; /* adjust margin to improve readability */
+  }
+
+  /* Adjust the watermark */
+  .watermark {
+    font-size: 24px;
+    bottom: 20px;
+    right: 20px;
   }
 }
 
@@ -660,5 +673,23 @@ p {
 
   #follow-us li {
     flex-basis: auto; /* Auto-adjust the width of icons */
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .watermark {
+    font-size: 18px;
+    bottom: 10px;
+    right: 10px;
+  }
+}
+
+/* Desktop styles (min-width: 769px) */
+@media only screen and (min-width: 769px) {
+  .watermark {
+    font-size: 36px;
+    bottom: 40px;
+    right: 40px;
   }
 }
