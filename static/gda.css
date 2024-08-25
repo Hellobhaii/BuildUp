@@ -1,6 +1,6 @@
 
 body {
-  background-color: #35400d;
+  background-color:#402d6b;
   background-repeat: no-repeat;
   height: 100vh;
   margin: 0;
@@ -15,7 +15,7 @@ nav {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background-color: #C9CE8C;/* darker green background */
+  background-color: #b99ede;/* darker green background */
   height: 60px; /* increased height for a more modern look */
   padding: 0 20px; /* added padding for better spacing */
   display: flex;
@@ -38,7 +38,7 @@ nav li {
 }
 
 nav a {
-  color: #1a2905; /* light green text color */
+  color: #402d6b; /* light green text color */
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
@@ -81,7 +81,7 @@ p {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #C9CE8C; /* match the accent color */
+  background-color: #b99ede; /* match the accent color */
   color: #1a2905; /* match the text color */
   padding: 10px 20px;
   border: none;
@@ -94,9 +94,9 @@ p {
 }
 
 #back-to-top:hover {
-  background-color:#1a2905; /* darker blue background color on hover */
+  background-color:#402d6b; /* darker blue background color on hover */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add box shadow on hover */
-  color: #C9CE8C;
+  color: #b99ede;
 }
 
 /*gda box*/
@@ -106,7 +106,7 @@ p {
   max-width: 80%;
   padding: 20px;
   text-align: center;
-  color: #C9CE8C;
+  color: #b99ede;
   display: flex;
   flex-direction: row; /* Change from column to row */
   align-items: center;
@@ -118,9 +118,9 @@ p {
   white-space: nowrap;
   font-size: 32px;
   font-weight: bold;
-  color: #C9CE8C;
+  color: #b99ede;
   margin-bottom: 180px;
-  margin-top:-70px;
+  margin-top:auto;
   text-align: left;
   margin-left: -15%;
   padding-left: 20px; /* adjust this value to add some padding */
@@ -128,7 +128,7 @@ p {
 .gda-box   h1 {
   font-size: 28px;
   font-weight: bold;
-  color: #C9CE8C;
+  color: #b99ede;
   margin-bottom: -50px;
   text-align: left;
   margin-left: -7%;
@@ -138,14 +138,36 @@ p {
   max-width: 700px; 
   font-size: 28px;
   font-weight: bold;
-  color: #C9CE8C;
+  color: #b99ede;
   margin-top: 30px;
   text-align: left;
   margin-left: -75%; /* adjust this value to align with p element */
 }
+
+/* CTA Button Styles */
+.cta {
+  background-color: #b99ede;
+  color:#402d6b;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+  margin-top: 180px;
+  margin-left: -50%;
+  margin-right: 50%;
+  text-align: center;
+}
+.cta:hover {
+  background-color:#402d6b; /* darker blue background color on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add box shadow on hover */
+  color: #b99ede;
+}
+
 .learn-more {
-  background-color: #C9CE8C; /* match the accent color */
-  color: #1a2905; /* match the text color */
+  background-color: #b99ede; /* match the accent color */
+  color:#402d6b; /* match the text color */
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -156,32 +178,11 @@ p {
   margin-top: 180px; /* add some space between the button and the content */
   margin-left:100px;
 }
+
 .learn-more:hover {
   background-color: #1a2905; /* darker blue background color on hover */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add box shadow on hover */
-  color: #C9CE8C;
-}
-
-/* CTA Button Styles */
-.cta {
-  background-color: #C9CE8C; /* blue background color */
-  color:black; /* white text color */
-  padding: 10px 20px; /* add some padding */
-  border: none; /* remove border */
-  border-radius: 5px; /* add rounded corners */
-  cursor: pointer; /* change cursor to pointer on hover */
-  transition: background-color 0.3s; /* add transition effect */
-  font-weight: bold;
-  margin-top: 180px;
-  margin-left: -25%;
-  text-align:auto;
-
-}
-
-.cta:hover {
-  background-color:#1a2905; /* darker blue background color on hover */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add box shadow on hover */
-  color: #C9CE8C;
+  color: #b99ede;
 }
 
 
@@ -199,14 +200,16 @@ p {
 } */
 
 .testimonial-box {
-  background-color: #C9CE8C;
+  background-color: #b99ede;
   padding: 20px;
-  border: 1px solid  #C9CE8C;
+  border: 1px solid  #b99ede;
   border-radius: 5px;
 }
 
 .testimonial-box h2 {
-  color: #1a2905;
+  color:#402d6b;
+  border-bottom: 2px solid #402d6b; /* add divider */
+  padding-bottom: 10px; /* add some padding to separate divider from content */
 }
 
 .testimonial-box {
@@ -234,7 +237,7 @@ p {
 
 .testimonial p {
   font-weight: bold;
-  color: #1a2905;
+  color:#402d6b;
 }
 
 
@@ -246,13 +249,13 @@ p {
 }
 
 .service-box {
-  background-color: #232b03; /* light gray background */
+  background-color:#b99ede; /* light gray background */
   padding: 20px;
   border-radius: 10px; /* rounded corners */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
   width: calc(20% - 20px); /* adjust the width to fit 5 boxes in a row */
   margin: 20px;
-  border: 1px solid #C9CE8C; /* add border */
+  border: 1px solid #b99ede; /* add border */
   perspective: 1000px;
   position: relative;
   width: 300px;
@@ -320,7 +323,7 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #C9CE8C;
+  color: #b99ede;
 }
 
 .service-box:hover {
@@ -330,10 +333,10 @@ p {
 
 
 .service-box h3 {
-  color: #C9CE8C;
+  color: #402d6b;
   font-weight: bold;
   margin-top: 0;
-  border-bottom: 2px solid #C9CE8C; /* add divider */
+  border-bottom: 2px solid #b99ede; /* add divider */
   padding-bottom: 10px; /* add some padding to separate divider from content */
 }
 
@@ -341,25 +344,25 @@ p {
   font-weight: bold;
   font-style: italic;
   font-size: 16px;
-  color: #C9CE8C; /* dark gray text color */
+  color: #402d6b; /* dark gray text color */
 }
 #services h1 {
   text-align: center;
   font-weight: bold;
   font-size: 36px;
   margin-bottom: 20px;
-  color: #C9CE8C; /* match the accent color */
+  color:#402d6b; /* match the accent color */
 }
 
 #about-us {
-  background-color: #C9CE8C;
+  background-color: #b99ede;
   font-size: 24px;
   padding: 20px;
   border-bottom: 2px solid #1a2905;
 }
 
 #about-us h1 {
-  color: #1a2905;
+  color: #402d6b;
   font-size: 50px;
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
   border-bottom: 2px solid #1a2905; /* add some space before the divider */
@@ -369,7 +372,7 @@ p {
 
 
 #about-us p {
-  color: #1a2905;
+  color:#402d6b;
   font-size: 28px;
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
 }
@@ -388,44 +391,44 @@ p {
 
 #contact {
   font-size: 36px; /* increase font size to 36px */
-  border-bottom: 2px solid #C9CE8C; /* add divider */
+  border-bottom: 2px solid #b99ede; /* add divider */
   padding-bottom: 20px; /* add some space after the divider */
 }
 
 #contact h1{
-  color: #C9CE8C;
+  color: #b99ede;
 }
 
 #contact ul {
   font-size: 24px; /* reduce font size to 24px */
   display: flex;
   justify-content: flex-end;
-  color: #C9CE8C;
+  color: #b99ede;
 }
 
 #contact li {
-  color: #C9CE8C;
+  color: #b99ede;
   margin-left: auto;
   font-size: 24px; /* reduce font size to 24px */
   font-weight: normal; /* remove bold font */
 }
 
 #follow-us {
-  background-color: #C9CE8C;
+  background-color: #b99ede;
   padding: 20px;
-  border-bottom: 2px solid #1a2905; /* add some space before the divider */
+  border-bottom: 2px solid #402d6b; /* add some space before the divider */
   padding-bottom: 20px; /* add some space after the divider */
 }
 
 #follow-us h1 {
-  color:#1a2905;
+  color:#402d6b;
   font-size: 50px;
-  border-bottom: 2px solid #1a2905; /* add divider */
+  border-bottom: 2px solid #402d6b; /* add divider */
   padding-bottom: 20px; /* add some space after the divider */
 }
 
 #follow-us ul {
-  color:#1a2905;
+  color:#402d6b;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -467,7 +470,7 @@ p {
 .loading-spinner {
   width: 50px;
   height: 50px;
-  border: 5px solid  #C9CE8C;
+  border: 5px solid  #b99ede;
   border-top: 5px solid#1a2905;
   border-radius: 50%;
   animation: spin 1s linear infinite;
