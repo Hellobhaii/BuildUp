@@ -116,7 +116,7 @@ p {
   font-size: 32px;
   font-weight: bold;
   color:#e8dec1;
-  margin-bottom: 180px;
+  margin-bottom: 200px;
   margin-top: -50px;
   text-align: left;
   margin-left: -15%;
@@ -134,7 +134,8 @@ p {
 .gda-box h1::before {
   content: "BuildUp";
   position: absolute;
-  top: 25%;
+  top: 20%;
+  height: auto;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 200px; /* Increased font size for watermark */
@@ -421,7 +422,7 @@ p {
 #about-us .watermark {
   position: absolute;
   bottom: 20%;
-  left: 20%;
+  left: 15%;
   z-index: 1000; 
   color:black;
   font-size: 200px;
