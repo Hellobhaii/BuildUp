@@ -419,18 +419,6 @@ p {
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
 }
 
-#about-us .watermark {
-  position: absolute;
-  bottom: 56%;
-  left: 15%;
-  z-index: 1000; 
-  color:black;
-  font-size: 200px;
-  font-weight: bold;
-  opacity: .5;
-  transition: opacity 0.3s ease;
-}
-
 
 
 
