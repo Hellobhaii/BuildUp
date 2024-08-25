@@ -353,7 +353,7 @@ p {
   transform: translate(-50%, -50%);
   text-align: center;
   color:black;
-  font-size: small;
+ ;
 }
 
 .service-box:hover {
@@ -373,7 +373,7 @@ p {
 .service-box p {
   font-weight: bold;
   font-style: italic;
-  font-size: 16px;
+  font-size: 12px;
   color: black; /* dark gray text color */
 }
 #services h1 {
