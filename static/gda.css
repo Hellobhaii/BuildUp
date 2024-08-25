@@ -122,7 +122,7 @@ p {
   margin-bottom: 180px;
   margin-top:auto;
   text-align: left;
-  margin-left: -25%;
+  margin-left: -15%;
   padding-left: 20px; /* adjust this value to add some padding */
 }
 .gda-box   h1 {
@@ -167,7 +167,7 @@ p {
 }
 
 
-.image-container {
+/* .image-container {
   position: absolute;
   right: -04px;
   top: 50%;
@@ -178,7 +178,7 @@ p {
   width: 90%;
   height: auto;
   margin: 0;
-}
+} */
 
 .testimonial-box {
   background-color: #C9CE8C;
@@ -530,6 +530,7 @@ p {
     font-size: 28px; /* increase font size to improve readability */
     margin-bottom: 20px; /* increase margin to improve readability */
   }
+  
   .gda-box h1 {
     font-size: 24px; /* increase font size to improve readability */
     margin-bottom: 20px; /* increase margin to improve readability */
@@ -544,6 +545,7 @@ p {
     margin: 15px; /* adjust margin to improve readability */
   }
 }
+
 
 
 
