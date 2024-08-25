@@ -143,6 +143,24 @@ p {
   text-align: left;
   margin-left: -75%; /* adjust this value to align with p element */
 }
+.learn-more {
+  background-color: #C9CE8C; /* match the accent color */
+  color: #1a2905; /* match the text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin-top: 20px; /* add some space between the button and the content */
+}
+
+.learn-more:hover {
+  background-color: #1a2905; /* darker blue background color on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add box shadow on hover */
+  color: #C9CE8C;
+}
 
 /* CTA Button Styles */
 .cta {
